@@ -1,13 +1,15 @@
 {
   "name": "request-mock",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Seth McLaughlin",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/grunt"
   },
-  "dependencies": {},
+  "dependencies": {
+    "grunt-release": "^0.7.0"
+  },
   "devDependencies": {
     "sinon": "~1.10.2",
     "grunt": "^0.4.5",
