@@ -58,7 +58,7 @@ describe('Request', function () {
 
   describe('post request', function () {
     beforeEach(function () {
-      request.post('1.com');
+      request.post({url: '1.com'});
     });
 
     it('should have made a single request', function () {
